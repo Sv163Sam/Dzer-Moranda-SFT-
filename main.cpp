@@ -19,6 +19,7 @@ void work_6(const int *data)
 
 void work_7(const int *data)
 {
+    std::cout << "---Работа 7---" << std::endl;
     int ti = 0, delta_nj = 0, i = 0;
     double eps = 0.0001, N0 = 0.0, sum_left = 0.0, res_right = 0.0, sum_exp = 0.0, sum_dnj = 0.0, sum_ti = 0.0, delta_k = 0.25, k = 0.0;
 
